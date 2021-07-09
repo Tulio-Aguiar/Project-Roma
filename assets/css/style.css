@@ -1,0 +1,288 @@
+/*Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@100&display=swap');
+@font-face {
+    font-family: 'Santio Black';
+    src: url(../font/Santio\ Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    margin:0;
+    padding:0;
+    background:url(../img/cleo-topper.jpg);
+    background-position:top;
+    background-attachment: fixed;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+/*---general---*/
+
+header nav img {
+    width:10%;
+    margin-right: 20px;
+}
+header nav a{
+    text-decoration: none;
+    display: inline-block;
+    color:#fff;
+    font-size: 25px;
+    text-decoration: underline #e7bc0e ;
+    border-bottom:thin;
+    
+}
+
+
+
+li{
+    list-style: none;
+    font-family: 'Santio Black';
+    text-decoration:underline yellow;
+    font-size: 10px;
+    color:#fff;
+    
+}
+
+/*---header---*/
+
+
+
+header nav ul{
+    text-align: right;
+    padding-top:1%;
+    margin-right: 80px;
+}
+header nav ul li{
+    display: inline-block;
+    padding-right: 2%;
+    list-style: none;
+    font-family: 'Santio Black';
+    text-decoration:underline yellow;
+    font-size: 5px;
+    color:#fff;
+}
+
+
+
+/*---section 1°---*/
+
+#one .one {
+    width: 40%;
+    padding: 10%;
+}
+
+#one .one h1 {
+
+    font-size: 80px;
+    color:#fff;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    font-family: 'Santio Black';
+}
+
+#one .one h3 {
+    text-align:left;
+    font-size: 35px;
+    color:#e7bc0e;
+    font-family: "Mr Dafoe";
+    margin-left: 100px;
+    margin-bottom: 100px;
+    
+}
+
+
+/*---section two---*/
+
+
+#two .two {
+    width: 40%;
+    padding:10%;
+}
+
+#two .two h3 {
+    position:absolute;
+    color:#6bc1a3;
+    font-size: 40px;
+    font-family: 'Santio Black';
+    margin-right: 145px;
+    text-align: center;
+    margin-bottom: 500px;
+
+}
+
+#two .two .span {
+    background:#000;
+    color:#fff;
+}
+
+
+/*---section three---*/
+
+
+#three .three {
+    width: 40%;
+    padding:20%;
+}
+
+#three .three img {
+    width:22%;
+    
+}
+
+#three .three h1 {
+font-family: 'Santio Black';
+font-size:250px;
+color:#e7bc0e;
+margin-right: 800px;
+padding-right: 500px;
+
+
+}
+
+#three .three h3 {
+    color:#e7bc0e;
+    font-size: 50px;
+    font-family: 'Santio Black';
+    
+}
+
+#three .three .work {
+    background:#000;
+    color:#fff;
+}
+
+/*---section four---*/
+
+#four .four {
+    width: 40%;
+    padding:10%;
+}
+
+#four .four img {
+    width:22%;
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+#four .four h1 {
+text-align: right;
+font-family: 'Santio Black';
+font-size:250px;
+
+color:#cb91b6;
+
+
+}
+
+
+#four .four h3 {
+    text-align: right;
+    color:#cb91b6;
+    font-size: 50px;
+    font-family: 'Santio Black';
+   margin-right: 160px;
+}
+
+#four .four .paid {
+    background:#000;
+    color:#fff;
+}
+
+/*---section five ---*/
+
+#five .five {
+    width:40%;
+    padding:20%;
+}
+
+#five .five img {
+    width:25%;
+    
+}
+
+#five .five h1 {
+
+font-family: 'Santio Black';
+font-size:250px;
+color:#6bc1a3;
+margin-bottom: 50px;
+}
+
+#five .five h3 {
+color:#6bc1a3;
+font-size: 50px;
+font-family: 'Santio Black';
+margin-right: 160px;
+margin-bottom: 250px;
+}
+
+
+#five .five .have {
+    background:#000;
+    color:#fff; 
+}
+
+#five .five h4{
+    font-family: 'Santio Black';
+    color:#7eb8e1;
+    font-size: 50px;
+    line-height: 1.5em;
+}
+
+#five .five .uses {
+    background:#000;
+    color:#fff; 
+}
+
+/*---section six---*/
+
+#six .parallax {
+
+background:url(../img/kid.png) center/cover no-repeat,
+ url(../img/see.png) center/cover no-repeat;
+height:100vh;
+
+}
+
+/*---section seven ---*/
+
+footer {
+    padding:30%;
+    height:100vh;
+    background: #000;
+}
+
+footer h1 {
+font-family: 'Santio Black';
+font-size:100px;
+color:#fff;
+margin-bottom: 20px;
+}
+
+footer h6 {
+    color:#fff;
+    font-size: 15px;
+    margin-top: 380px;
+}
+
+footer button {
+    border:1px solid #fff;
+    background:transparent;
+    font-family: "roboto";
+    color:#fff;
+    padding: 20px 40px;
+    font-size: 25px;
+    margin-top: 75px;
+}
+
+footer .end {
+    color:#6bc1a3;
+}
